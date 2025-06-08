@@ -17,3 +17,23 @@ C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Deb
 C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\refint\CinemaApp.Web.ViewModels.dll
 C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.pdb
 C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\ref\CinemaApp.Web.ViewModels.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Web.ViewModels.deps.json
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Web.ViewModels.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Web.ViewModels.pdb
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Data.Common.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Data.Models.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.GCommon.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Data.Models.pdb
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.GCommon.pdb
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Data.Common.pdb
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.csproj.AssemblyReference.cache
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.AssemblyInfo.cs
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.sourcelink.json
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaAp.B0FE653C.Up2Date
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\obj\Debug\net8.0\refint\CinemaApp.Web.ViewModels.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.pdb
+C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\obj\Debug\net8.0\ref\CinemaApp.Web.ViewModels.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DBoW0/PvABQ=",
+  "dgSpecHash": "OAkJXTrvNvI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Web.ViewModels\\CinemaApp.Web.ViewModels.csproj",
+  "projectFilePath": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Web.ViewModels\\CinemaApp.Web.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.16\\microsoft.aspnetcore.cryptography.internal.8.0.16.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.16\\microsoft.aspnetcore.cryptography.keyderivation.8.0.16.nupkg.sha512",

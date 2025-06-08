@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fxwABcivLCg=",
+  "dgSpecHash": "+OINyoxIZcY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Data\\CinemaApp.Data.csproj",
+  "projectFilePath": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data\\CinemaApp.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

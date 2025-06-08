@@ -872,11 +872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Web.ViewModels\\CinemaApp.Web.ViewModels.csproj",
+      "projectUniqueName": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Web.ViewModels\\CinemaApp.Web.ViewModels.csproj",
       "projectName": "CinemaApp.Web.ViewModels",
-      "projectPath": "C:\\Users\\PC\\Desktop\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Web.ViewModels\\CinemaApp.Web.ViewModels.csproj",
+      "projectPath": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Web.ViewModels\\CinemaApp.Web.ViewModels.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Web.ViewModels\\obj\\",
+      "outputPath": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Web.ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -900,11 +900,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\PC\\Desktop\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Data.Models\\CinemaApp.Data.Models.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Data.Models\\CinemaApp.Data.Models.csproj"
+            "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data.Models\\CinemaApp.Data.Models.csproj": {
+              "projectPath": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data.Models\\CinemaApp.Data.Models.csproj"
             },
-            "C:\\Users\\PC\\Desktop\\CinemaWeb-May-2025-Skeleton\\CinemaApp.GCommon\\CinemaApp.GCommon.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\CinemaWeb-May-2025-Skeleton\\CinemaApp.GCommon\\CinemaApp.GCommon.csproj"
+            "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.GCommon\\CinemaApp.GCommon.csproj": {
+              "projectPath": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.GCommon\\CinemaApp.GCommon.csproj"
             }
           }
         }
