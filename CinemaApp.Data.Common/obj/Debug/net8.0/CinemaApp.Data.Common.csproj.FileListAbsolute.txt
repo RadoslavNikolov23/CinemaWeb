@@ -1,14 +1,3 @@
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Common\bin\Debug\net8.0\CinemaApp.Data.Common.deps.json
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Common\bin\Debug\net8.0\CinemaApp.Data.Common.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Common\bin\Debug\net8.0\CinemaApp.Data.Common.pdb
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Common\obj\Debug\net8.0\CinemaApp.Data.Common.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Common\obj\Debug\net8.0\CinemaApp.Data.Common.AssemblyInfoInputs.cache
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Common\obj\Debug\net8.0\CinemaApp.Data.Common.AssemblyInfo.cs
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Common\obj\Debug\net8.0\CinemaApp.Data.Common.csproj.CoreCompileInputs.cache
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Common\obj\Debug\net8.0\CinemaApp.Data.Common.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Common\obj\Debug\net8.0\refint\CinemaApp.Data.Common.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Common\obj\Debug\net8.0\CinemaApp.Data.Common.pdb
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Common\obj\Debug\net8.0\ref\CinemaApp.Data.Common.dll
 C:\Applications - Projects\CinemaWeb\CinemaApp.Data.Common\bin\Debug\net8.0\CinemaApp.Data.Common.deps.json
 C:\Applications - Projects\CinemaWeb\CinemaApp.Data.Common\bin\Debug\net8.0\CinemaApp.Data.Common.dll
 C:\Applications - Projects\CinemaWeb\CinemaApp.Data.Common\bin\Debug\net8.0\CinemaApp.Data.Common.pdb

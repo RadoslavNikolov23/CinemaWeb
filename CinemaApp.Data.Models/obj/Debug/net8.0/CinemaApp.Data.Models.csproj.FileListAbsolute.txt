@@ -1,20 +1,3 @@
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\bin\Debug\net8.0\CinemaApp.Data.Models.deps.json
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\bin\Debug\net8.0\CinemaApp.Data.Models.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\bin\Debug\net8.0\CinemaApp.Data.Models.pdb
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\bin\Debug\net8.0\CinemaApp.Data.Common.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\bin\Debug\net8.0\CinemaApp.GCommon.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\bin\Debug\net8.0\CinemaApp.Data.Common.pdb
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\bin\Debug\net8.0\CinemaApp.GCommon.pdb
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\obj\Debug\net8.0\CinemaApp.Data.Models.csproj.AssemblyReference.cache
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\obj\Debug\net8.0\CinemaApp.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\obj\Debug\net8.0\CinemaApp.Data.Models.AssemblyInfoInputs.cache
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\obj\Debug\net8.0\CinemaApp.Data.Models.AssemblyInfo.cs
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\obj\Debug\net8.0\CinemaApp.Data.Models.csproj.CoreCompileInputs.cache
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\obj\Debug\net8.0\CinemaAp.4AD75E65.Up2Date
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\obj\Debug\net8.0\CinemaApp.Data.Models.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\obj\Debug\net8.0\refint\CinemaApp.Data.Models.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\obj\Debug\net8.0\CinemaApp.Data.Models.pdb
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Data.Models\obj\Debug\net8.0\ref\CinemaApp.Data.Models.dll
 C:\Applications - Projects\CinemaWeb\CinemaApp.Data.Models\bin\Debug\net8.0\CinemaApp.Data.Models.deps.json
 C:\Applications - Projects\CinemaWeb\CinemaApp.Data.Models\bin\Debug\net8.0\CinemaApp.Data.Models.dll
 C:\Applications - Projects\CinemaWeb\CinemaApp.Data.Models\bin\Debug\net8.0\CinemaApp.Data.Models.pdb

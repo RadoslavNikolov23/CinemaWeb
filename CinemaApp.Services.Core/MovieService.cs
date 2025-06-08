@@ -129,6 +129,7 @@
             Movie? editableMovie = await this.dbContext
                 .Movies
                 .SingleOrDefaultAsync(m => m.Id.ToString() == inputModel.Id);
+
             if (editableMovie == null)
             {
                 return false;
@@ -137,6 +138,7 @@
             DateOnly movieReleaseDate = DateOnly
                 .ParseExact(inputModel.ReleaseDate, AppDateFormat,
                     CultureInfo.InvariantCulture, DateTimeStyles.None);
+
             editableMovie.Title = inputModel.Title;
             editableMovie.Description = inputModel.Description;
             editableMovie.Director = inputModel.Director;

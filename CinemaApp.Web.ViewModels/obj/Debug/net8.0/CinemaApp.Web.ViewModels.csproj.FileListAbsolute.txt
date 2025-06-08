@@ -1,22 +1,3 @@
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Web.ViewModels.deps.json
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Web.ViewModels.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Web.ViewModels.pdb
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Data.Common.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Data.Models.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.GCommon.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Data.Models.pdb
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.GCommon.pdb
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Data.Common.pdb
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.csproj.AssemblyReference.cache
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.AssemblyInfoInputs.cache
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.AssemblyInfo.cs
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.csproj.CoreCompileInputs.cache
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaAp.B0FE653C.Up2Date
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\refint\CinemaApp.Web.ViewModels.dll
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.pdb
-C:\Users\PC\Desktop\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\ref\CinemaApp.Web.ViewModels.dll
 C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Web.ViewModels.deps.json
 C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Web.ViewModels.dll
 C:\Applications - Projects\CinemaWeb\CinemaApp.Web.ViewModels\bin\Debug\net8.0\CinemaApp.Web.ViewModels.pdb
