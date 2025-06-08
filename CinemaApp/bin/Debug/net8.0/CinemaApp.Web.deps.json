@@ -10,6 +10,7 @@
         "dependencies": {
           "CinemaApp.Data": "1.0.0",
           "CinemaApp.GCommon": "1.0.0",
+          "CinemaApp.Services.Core": "1.0.0",
           "CinemaApp.Web.ViewModels": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.16",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.16",
@@ -21,6 +22,17 @@
         },
         "runtime": {
           "CinemaApp.Web.dll": {}
+        }
+      },
+      "AutoMapper/14.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/AutoMapper.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.0.0.0"
+          }
         }
       },
       "Azure.Core/1.38.0": {
@@ -2218,6 +2230,43 @@
           }
         }
       },
+      "CinemaApp.Services.AutoMapping/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "14.0.0",
+          "CinemaApp.GCommon": "1.0.0",
+          "CinemaApp.Services.Common": "1.0.0"
+        },
+        "runtime": {
+          "CinemaApp.Services.AutoMapping.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CinemaApp.Services.Common/1.0.0": {
+        "runtime": {
+          "CinemaApp.Services.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CinemaApp.Services.Core/1.0.0": {
+        "dependencies": {
+          "CinemaApp.Data": "1.0.0",
+          "CinemaApp.Data.Models": "1.0.0",
+          "CinemaApp.GCommon": "1.0.0",
+          "CinemaApp.Services.AutoMapping": "1.0.0",
+          "CinemaApp.Services.Common": "1.0.0",
+          "CinemaApp.Web.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "CinemaApp.Services.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "CinemaApp.Web.ViewModels/1.0.0": {
         "dependencies": {
           "CinemaApp.Data.Models": "1.0.0",
@@ -2237,6 +2286,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/14.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OC+1neAPM4oCCqQj3g2GJ2shziNNhOkxmNB9cVS8jtx4JbgmRzLcUOxB9Tsz6cVPHugdkHgCaCrTjjSI0Z5sCQ==",
+      "path": "automapper/14.0.0",
+      "hashPath": "automapper.14.0.0.nupkg.sha512"
     },
     "Azure.Core/1.38.0": {
       "type": "package",
@@ -3472,6 +3528,21 @@
       "sha512": ""
     },
     "CinemaApp.GCommon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CinemaApp.Services.AutoMapping/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CinemaApp.Services.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CinemaApp.Services.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

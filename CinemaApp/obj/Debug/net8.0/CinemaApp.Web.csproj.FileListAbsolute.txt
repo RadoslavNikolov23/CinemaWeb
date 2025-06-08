@@ -603,3 +603,10 @@ C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\refint\CinemaApp
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.pdb
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.genruntimeconfig.cache
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\ref\CinemaApp.Web.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\AutoMapper.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Services.AutoMapping.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Services.Common.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Services.Core.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Services.Core.pdb
+C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Services.AutoMapping.pdb
+C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Services.Common.pdb
