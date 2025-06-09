@@ -2,24 +2,37 @@
 {
     using CinemaApp.Services.Core.Interfaces;
     using CinemaApp.Web.ViewModels.Movie;
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
     using static ViewModels.ValidationMessages.Movie;
 
 
-    public class MovieController : Controller
+    public class MovieController : BaseController
     {
         private readonly IMovieService movieService;
+        private readonly IWatchlistService watchlistService;
 
-        public MovieController(IMovieService dbContext)
+        public MovieController(IMovieService dbContext, IWatchlistService watchlistService)
         {
             this.movieService = dbContext;
+            this.watchlistService = watchlistService;
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             IEnumerable<AllMoviesIndexViewModel> movies 
                                          = await this.movieService.GetAllMoviesAsync();
+
+            if (this.IsUserAuthenticated())
+            {
+                foreach (AllMoviesIndexViewModel movieIndexVM in movies)
+                {
+                    movieIndexVM.IsAddedToUserWatchlist = await this.watchlistService
+                        .IsMovieAddedToWatchlist(movieIndexVM.Id, this.GetUserId());
+                }
+            }
 
             return View(movies);
         }
@@ -55,6 +68,7 @@
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<IActionResult> Details(string? id)
         {
             try
@@ -122,6 +136,64 @@
                 }
 
                 return this.RedirectToAction(nameof(Details), new { id = inputModel.Id });
+            }
+            catch (Exception e)
+            {
+                // TODO: Implement it with the ILogger
+                // TODO: Add JS bars to indicate such errors
+                Console.WriteLine(e.Message);
+
+                return this.RedirectToAction(nameof(Index));
+            }
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(string? id)
+        {
+            try
+            {
+                DeleteMovieViewModel? movieToBeDeleted = await this.movieService
+                    .GetMovieDeleteDetailsByIdAsync(id);
+                if (movieToBeDeleted == null)
+                {
+                    // TODO: Custom 404 page
+                    return this.RedirectToAction(nameof(Index));
+                }
+
+                return this.View(movieToBeDeleted);
+            }
+            catch (Exception e)
+            {
+                // TODO: Implement it with the ILogger
+                // TODO: Add JS bars to indicate such errors
+                Console.WriteLine(e.Message);
+
+                return this.RedirectToAction(nameof(Index));
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(DeleteMovieViewModel inputModel)
+        {
+            try
+            {
+                if (!this.ModelState.IsValid)
+                {
+                    // TODO: Implement JS notifications
+                    return this.RedirectToAction(nameof(Index));
+                }
+
+                bool deleteResult = await this.movieService
+                    .SoftDeleteMovieAsync(inputModel.Id);
+                if (deleteResult == false)
+                {
+                    // TODO: Implement JS notifications
+                    // TODO: Alt_Redirect to Not Found page
+                    return this.RedirectToAction(nameof(Index));
+                }
+
+                // TODO: Success notification
+                return this.RedirectToAction(nameof(Index));
             }
             catch (Exception e)
             {
