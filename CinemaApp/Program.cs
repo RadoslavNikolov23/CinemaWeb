@@ -24,8 +24,7 @@ namespace CinemaApp.Web
                         options.UseSqlServer(connectionString);
                     });
 
-            builder.Services
-                    .AddDatabaseDeveloperPageExceptionFilter();
+            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
             builder.Services
                     .AddDefaultIdentity<IdentityUser>(options =>
@@ -45,9 +44,9 @@ namespace CinemaApp.Web
                     .AddEntityFrameworkStores<CinemaAppDbContext>();
 
             builder.Services.AddScoped<IMovieService, MovieService>();
+            builder.Services.AddScoped<IMovieService, MovieService>();
 
-            builder.Services
-                    .AddControllersWithViews();
+            builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
 
@@ -68,6 +67,7 @@ namespace CinemaApp.Web
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

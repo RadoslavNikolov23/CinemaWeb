@@ -10,13 +10,14 @@
     {
         protected bool IsUserAuthenticated()
         {
-            bool retRes = false;
+            bool retResult = false;
+
             if (this.User.Identity != null)
             {
-                retRes = this.User.Identity.IsAuthenticated;
+                retResult = this.User.Identity.IsAuthenticated;
             }
 
-            return retRes;
+            return retResult;
         }
 
         protected string? GetUserId()
