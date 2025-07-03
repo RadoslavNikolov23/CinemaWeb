@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Applications - Projects\\CinemaWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9D77A74-05B7-4F4F-BB89-E20CBAB4780F}|CinemaApp.Web.ViewModels\\CinemaApp.Web.ViewModels.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.web.viewmodels\\movie\\allmoviesindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D77A74-05B7-4F4F-BB89-E20CBAB4780F}|CinemaApp.Web.ViewModels\\CinemaApp.Web.ViewModels.csproj|solutionrelative:cinemaapp.web.viewmodels\\movie\\allmoviesindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{737FCBAF-0C43-442A-8766-DED1901E84B0}|CinemaApp.Data\\CinemaApp.Data.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.data\\repository\\interface\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{737FCBAF-0C43-442A-8766-DED1901E84B0}|CinemaApp.Data\\CinemaApp.Data.csproj|solutionrelative:cinemaapp.data\\repository\\interface\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D1A47D-9414-4ED3-8F00-0AE89D29A8F8}|CinemaApp.Data.Models\\CinemaApp.Data.Models.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.data.models\\applicationusermovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D1A47D-9414-4ED3-8F00-0AE89D29A8F8}|CinemaApp.Data.Models\\CinemaApp.Data.Models.csproj|solutionrelative:cinemaapp.data.models\\applicationusermovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{737FCBAF-0C43-442A-8766-DED1901E84B0}|CinemaApp.Data\\CinemaApp.Data.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.data\\repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{737FCBAF-0C43-442A-8766-DED1901E84B0}|CinemaApp.Data\\CinemaApp.Data.csproj|solutionrelative:cinemaapp.data\\repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6111C96-2B3A-47DA-9C81-9F3EE95B714B}|CinemaApp.Data.Common\\CinemaApp.Data.Common.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.data.common\\exceptionmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6111C96-2B3A-47DA-9C81-9F3EE95B714B}|CinemaApp.Data.Common\\CinemaApp.Data.Common.csproj|solutionrelative:cinemaapp.data.common\\exceptionmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp\\controllers\\watchlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\controllers\\watchlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{737FCBAF-0C43-442A-8766-DED1901E84B0}|CinemaApp.Data\\CinemaApp.Data.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.data\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{737FCBAF-0C43-442A-8766-DED1901E84B0}|CinemaApp.Data\\CinemaApp.Data.csproj|solutionrelative:cinemaapp.data\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AllMoviesIndexViewModel.cs",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Web.ViewModels\\Movie\\AllMoviesIndexViewModel.cs",
-              "RelativeDocumentMoniker": "CinemaApp.Web.ViewModels\\Movie\\AllMoviesIndexViewModel.cs",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Web.ViewModels\\Movie\\AllMoviesIndexViewModel.cs",
-              "RelativeToolTip": "CinemaApp.Web.ViewModels\\Movie\\AllMoviesIndexViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IAsyncRepository.cs",
+              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data\\Repository\\Interface\\IAsyncRepository.cs",
+              "RelativeDocumentMoniker": "CinemaApp.Data\\Repository\\Interface\\IAsyncRepository.cs",
+              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data\\Repository\\Interface\\IAsyncRepository.cs",
+              "RelativeToolTip": "CinemaApp.Data\\Repository\\Interface\\IAsyncRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T20:20:43.685Z",
+              "WhenOpened": "2025-07-03T21:51:57.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationUserMovie.cs",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data.Models\\ApplicationUserMovie.cs",
-              "RelativeDocumentMoniker": "CinemaApp.Data.Models\\ApplicationUserMovie.cs",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data.Models\\ApplicationUserMovie.cs",
-              "RelativeToolTip": "CinemaApp.Data.Models\\ApplicationUserMovie.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data\\Repository\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "CinemaApp.Data\\Repository\\Interface\\IRepository.cs",
+              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data\\Repository\\Interface\\IRepository.cs",
+              "RelativeToolTip": "CinemaApp.Data\\Repository\\Interface\\IRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T20:20:30.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WatchlistController.cs",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Controllers\\WatchlistController.cs",
-              "RelativeDocumentMoniker": "CinemaApp\\Controllers\\WatchlistController.cs",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Controllers\\WatchlistController.cs",
-              "RelativeToolTip": "CinemaApp\\Controllers\\WatchlistController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAgwGIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T16:37:51.236Z",
+              "WhenOpened": "2025-07-03T21:51:52.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "CinemaApp\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "CinemaApp\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwA8AAAAJAAAAAAAAAA==",
+              "Title": "ExceptionMessages.cs",
+              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data.Common\\ExceptionMessages.cs",
+              "RelativeDocumentMoniker": "CinemaApp.Data.Common\\ExceptionMessages.cs",
+              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data.Common\\ExceptionMessages.cs",
+              "RelativeToolTip": "CinemaApp.Data.Common\\ExceptionMessages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T16:36:59.978Z",
+              "WhenOpened": "2025-07-03T21:37:13.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data\\Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "CinemaApp.Data\\Repository\\BaseRepository.cs",
+              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data\\Repository\\BaseRepository.cs",
+              "RelativeToolTip": "CinemaApp.Data\\Repository\\BaseRepository.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAuwAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T21:31:28.584Z",
               "EditorCaption": ""
             }
           ]
