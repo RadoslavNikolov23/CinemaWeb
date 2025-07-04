@@ -2,6 +2,7 @@
 {
     using CinemaApp.Data;
     using CinemaApp.Data.Models;
+    using CinemaApp.Data.Repository.Interface;
     using CinemaApp.Services.Core.Interfaces;
     using CinemaApp.Web.ViewModels.Movie;
     using Microsoft.EntityFrameworkCore;
@@ -13,17 +14,17 @@
 
     public class MovieService : IMovieService
     {
-        private readonly CinemaAppDbContext dbContext;
+        private readonly IMovieRepository movieRepository;
 
-        public MovieService(CinemaAppDbContext dbContext)
+        public MovieService(IMovieRepository movieRepository)
         {
-            this.dbContext = dbContext;
+            this.movieRepository = movieRepository;
         }
 
         public async Task<IEnumerable<AllMoviesIndexViewModel>> GetAllMoviesAsync()
         {
-            IEnumerable<AllMoviesIndexViewModel> movies = await this.dbContext
-                .Movies
+            IEnumerable<AllMoviesIndexViewModel> allMovies = await this.movieRepository
+                .GetAllAttached()
                 .AsNoTracking()
                 .Select(m => new AllMoviesIndexViewModel
                 {
@@ -36,7 +37,7 @@
                 })
                 .ToListAsync();
 
-            foreach (AllMoviesIndexViewModel movie in movies)
+            foreach (AllMoviesIndexViewModel movie in allMovies)
             {
                 if (String.IsNullOrEmpty(movie.ImageUrl))
                 {
@@ -44,7 +45,7 @@
                 }
             }
 
-            return movies;
+            return allMovies;
         }
 
 
@@ -63,8 +64,7 @@
                         CultureInfo.InvariantCulture, DateTimeStyles.None),
             };
 
-            await this.dbContext.Movies.AddAsync(newMovie);
-            await this.dbContext.SaveChangesAsync();
+            await this.movieRepository.AddAsync(newMovie);
         }
 
         public async Task<MovieDetailsViewModel?> GetMovieDetailsByIdAsync(string? id)
@@ -75,8 +75,8 @@
 
             if (isIdValidGuid)
             {
-                movieDetails = await this.dbContext
-                    .Movies
+                movieDetails = await this.movieRepository
+                    .GetAllAttached()
                     .AsNoTracking()
                     .Where(m => m.Id == movieId)
                     .Select(m => new MovieDetailsViewModel()
@@ -103,8 +103,8 @@
             bool isIdValidGuid = Guid.TryParse(id, out Guid movieId);
             if (isIdValidGuid)
             {
-                editableMovie = await this.dbContext
-                    .Movies
+                editableMovie = await this.movieRepository
+                    .GetAllAttached()
                     .AsNoTracking()
                     .Where(m => m.Id == movieId)
                     .Select(m => new MovieFormInputModel()
@@ -125,6 +125,8 @@
 
         public async Task<bool> EditMovieAsync(MovieFormInputModel inputModel)
         {
+            bool result = false;
+
             Movie? editableMovie = await this.FindMovieByStringId(inputModel.Id);
 
             if (editableMovie == null)
@@ -144,9 +146,9 @@
             editableMovie.ImageUrl = inputModel.ImageUrl ?? $"/images/{NoImageUrl}";
             editableMovie.ReleaseDate = movieReleaseDate;
 
-            await this.dbContext.SaveChangesAsync();
+            result = await this.movieRepository.UpdateAsync(editableMovie);
 
-            return true;
+            return result;
         }
 
         public async Task<DeleteMovieViewModel?> GetMovieDeleteDetailsByIdAsync(string? id)
@@ -169,6 +171,8 @@
 
         public async Task<bool> SoftDeleteMovieAsync(string? id)
         {
+            bool result = false;
+
             Movie? movieToDelete = await this.FindMovieByStringId(id);
             if (movieToDelete == null)
             {
@@ -178,9 +182,9 @@
             // Soft Delete <=> Edit of IsDeleted property
             movieToDelete.IsDeleted = true;
 
-            await this.dbContext.SaveChangesAsync();
+            result = await this.movieRepository.DeleteAsync(movieToDelete);
 
-            return true;
+            return result;
         }
 
         public async Task<bool> DeleteMovieAsync(string? id)
@@ -192,8 +196,8 @@
             }
 
             // TODO: To be investigated when relations to Movie entity are introduced
-            this.dbContext.Movies.Remove(movieToDelete);
-            await this.dbContext.SaveChangesAsync();
+            await this.movieRepository
+                .HardDeleteAsync(movieToDelete);
 
             return true;
         }
@@ -208,9 +212,8 @@
                 bool isGuidValid = Guid.TryParse(id, out Guid movieGuid);
                 if (isGuidValid)
                 {
-                    movie = await this.dbContext
-                        .Movies
-                        .FindAsync(movieGuid);
+                    movie = await this.movieRepository
+                                     .GetByIdAsync(movieGuid);
                 }
             }
 
