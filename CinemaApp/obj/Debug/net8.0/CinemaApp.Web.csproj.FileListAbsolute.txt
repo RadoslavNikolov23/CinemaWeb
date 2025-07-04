@@ -308,3 +308,7 @@ C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\refint\CinemaApp
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.pdb
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.genruntimeconfig.cache
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\ref\CinemaApp.Web.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

@@ -1,13 +1,11 @@
 ﻿namespace CinemaApp.Services.Core
 {
-    using Data;
+    using CinemaApp.Data.Repository.Interface;
     using Data.Models;
     using Interfaces;
+    using Microsoft.EntityFrameworkCore;
     using Web.ViewModels.Watchlist;
     using static GCommon.ApplicationConstants;
-
-    using Microsoft.EntityFrameworkCore;
-    using CinemaApp.Data.Repository.Interface;
 
     public class WatchlistService : IWatchlistService
     {
