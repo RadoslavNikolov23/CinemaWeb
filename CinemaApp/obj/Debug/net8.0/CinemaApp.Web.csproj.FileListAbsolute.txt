@@ -275,16 +275,19 @@ C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.GCommo
 C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Services.AutoMapping.dll
 C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Services.Common.dll
 C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Services.Core.dll
+C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Web.Infrastructure.dll
 C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Web.ViewModels.dll
 C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Data.pdb
 C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.GCommon.pdb
 C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Services.Core.pdb
+C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Web.Infrastructure.pdb
 C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Web.ViewModels.pdb
 C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Data.Common.pdb
 C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Data.Models.pdb
 C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Services.AutoMapping.pdb
 C:\Applications - Projects\CinemaWeb\CinemaApp\bin\Debug\net8.0\CinemaApp.Services.Common.pdb
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.csproj.AssemblyReference.cache
+C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\rpswa.dswa.cache.json
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.AssemblyInfoInputs.cache
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.AssemblyInfo.cs
@@ -294,6 +297,9 @@ C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.Mv
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.RazorAssemblyInfo.cache
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.RazorAssemblyInfo.cs
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.sourcelink.json
+C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\scopedcss\bundle\CinemaApp.Web.styles.css
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\scopedcss\projectbundle\CinemaApp.Web.bundle.scp.css
@@ -308,7 +314,3 @@ C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\refint\CinemaApp
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.pdb
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.genruntimeconfig.cache
 C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\ref\CinemaApp.Web.dll
-C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\rjimswa.dswa.cache.json
-C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-C:\Applications - Projects\CinemaWeb\CinemaApp\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
