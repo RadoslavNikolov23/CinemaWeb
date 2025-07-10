@@ -1,10 +1,9 @@
 namespace CinemaApp.Web
 {
     using CinemaApp.Data;
-    using CinemaApp.Data.Repository;
     using CinemaApp.Data.Repository.Interface;
-    using CinemaApp.Web.Infrastructure.Extensions;
     using CinemaApp.Services.Core.Interfaces;
+    using CinemaApp.Web.Infrastructure.Extensions;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.EntityFrameworkCore;
 
@@ -45,10 +44,8 @@ namespace CinemaApp.Web
                     })
                     .AddEntityFrameworkStores<CinemaAppDbContext>();
 
-            builder.Services.AddScoped<IMovieRepository, MovieRepository>();
-            builder.Services.AddScoped<IWatchlistRepository, WatchlistRepository>();
-            builder.Services.AddScoped<IManagerRepository, ManagerRepository>();
 
+            builder.Services.AddRepositories(typeof(IMovieRepository).Assembly);
             builder.Services.AddUserDefinedServices(typeof(IMovieService).Assembly);
 
             builder.Services.AddControllersWithViews();
@@ -66,6 +63,8 @@ namespace CinemaApp.Web
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseStatusCodePagesWithRedirects("/Home/Error?statusCode={0}");
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();

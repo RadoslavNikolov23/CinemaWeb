@@ -88,6 +88,43 @@ namespace CinemaApp.Data.Migrations
                         {
                             t.HasComment("Cinema in the system");
                         });
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("8a1fdfb4-08c9-44a2-a46e-0b3c45ff57b9"),
+                            IsDeleted = false,
+                            Location = "Sofia, Bulgaria",
+                            Name = "Arena Mall Sofia"
+                        },
+                        new
+                        {
+                            Id = new Guid("f4c3e429-0e36-47af-99a2-0c7581a7fc67"),
+                            IsDeleted = false,
+                            Location = "Plovdiv, Bulgaria",
+                            Name = "Cinema City Plovdiv"
+                        },
+                        new
+                        {
+                            Id = new Guid("5ae6c761-1363-4a23-9965-171c70f935de"),
+                            IsDeleted = false,
+                            Location = "Varna, Bulgaria",
+                            Name = "Eccoplexx Varna"
+                        },
+                        new
+                        {
+                            Id = new Guid("be80d2e4-1c91-4e86-9b73-12ef08c9c3d2"),
+                            IsDeleted = false,
+                            Location = "Sofia, Bulgaria",
+                            Name = "IMAX Mall of Sofia"
+                        },
+                        new
+                        {
+                            Id = new Guid("33c36253-9b68-4d8a-89ae-f3276f1c3f8a"),
+                            IsDeleted = false,
+                            Location = "Burgas, Bulgaria",
+                            Name = "Cinema City Burgas Plaza"
+                        });
                 });
 
             modelBuilder.Entity("CinemaApp.Data.Models.CinemaMovie", b =>
@@ -133,6 +170,134 @@ namespace CinemaApp.Data.Migrations
                     b.ToTable("CinemasMovies", t =>
                         {
                             t.HasComment("Movie projection in a cinema in the system");
+                        });
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("71a411ec-d23c-4abb-b50c-75571d0a3cff"),
+                            AvailableTickets = 120,
+                            CinemaId = new Guid("8a1fdfb4-08c9-44a2-a46e-0b3c45ff57b9"),
+                            IsDeleted = false,
+                            MovieId = new Guid("ae50a5ab-9642-466f-b528-3cc61071bb4c"),
+                            Showtime = "18:30"
+                        },
+                        new
+                        {
+                            Id = new Guid("30c505d0-9833-4087-9377-43ac8ab34e07"),
+                            AvailableTickets = 90,
+                            CinemaId = new Guid("f4c3e429-0e36-47af-99a2-0c7581a7fc67"),
+                            IsDeleted = false,
+                            MovieId = new Guid("68fb84b9-ef2a-402f-b4fc-595006f5c275"),
+                            Showtime = "21:00"
+                        },
+                        new
+                        {
+                            Id = new Guid("130f6630-5593-4165-8e9e-de718ee1fb72"),
+                            AvailableTickets = 70,
+                            CinemaId = new Guid("5ae6c761-1363-4a23-9965-171c70f935de"),
+                            IsDeleted = false,
+                            MovieId = new Guid("16376cc6-b3e0-4bf7-a0e4-9cbd1490522c"),
+                            Showtime = "20:15"
+                        },
+                        new
+                        {
+                            Id = new Guid("c96549ed-7a19-4e83-856e-976cf306d611"),
+                            AvailableTickets = 60,
+                            CinemaId = new Guid("33c36253-9b68-4d8a-89ae-f3276f1c3f8a"),
+                            IsDeleted = false,
+                            MovieId = new Guid("bf9ff8b3-3209-4b18-9f4b-5172c45b73f9"),
+                            Showtime = "19:00"
+                        },
+                        new
+                        {
+                            Id = new Guid("30864830-db09-412a-a816-6dbaccc1374c"),
+                            AvailableTickets = 150,
+                            CinemaId = new Guid("be80d2e4-1c91-4e86-9b73-12ef08c9c3d2"),
+                            IsDeleted = false,
+                            MovieId = new Guid("811a1a9e-61a8-4f6f-acb0-55a252c2b713"),
+                            Showtime = "17:45"
+                        },
+                        new
+                        {
+                            Id = new Guid("a22c43b7-bd1d-46cd-b419-dba244e533cc"),
+                            AvailableTickets = 85,
+                            CinemaId = new Guid("f4c3e429-0e36-47af-99a2-0c7581a7fc67"),
+                            IsDeleted = false,
+                            MovieId = new Guid("e00208b1-cb12-4bd4-8ac1-36ab62f7b4c9"),
+                            Showtime = "20:00"
+                        },
+                        new
+                        {
+                            Id = new Guid("93f61e0c-6e62-41bb-b4e2-fc770ac48128"),
+                            AvailableTickets = 40,
+                            CinemaId = new Guid("5ae6c761-1363-4a23-9965-171c70f935de"),
+                            IsDeleted = false,
+                            MovieId = new Guid("4491b6f5-2a11-4c4c-8c6b-c371f47d2152"),
+                            Showtime = "22:30"
+                        },
+                        new
+                        {
+                            Id = new Guid("6a7071a9-0c3d-42e5-9514-639c5fb259a3"),
+                            AvailableTickets = 100,
+                            CinemaId = new Guid("33c36253-9b68-4d8a-89ae-f3276f1c3f8a"),
+                            IsDeleted = false,
+                            MovieId = new Guid("844d9abd-104d-41ab-b14a-ce059779ad91"),
+                            Showtime = "16:00"
+                        },
+                        new
+                        {
+                            Id = new Guid("3291c19e-5995-48af-9124-35f855bf8476"),
+                            AvailableTickets = 95,
+                            CinemaId = new Guid("8a1fdfb4-08c9-44a2-a46e-0b3c45ff57b9"),
+                            IsDeleted = false,
+                            MovieId = new Guid("02b52bb0-1c2b-49a4-ba66-6d33f81d38d1"),
+                            Showtime = "19:45"
+                        },
+                        new
+                        {
+                            Id = new Guid("d00af316-049a-4bd5-97c2-c55fcab99783"),
+                            AvailableTickets = 80,
+                            CinemaId = new Guid("be80d2e4-1c91-4e86-9b73-12ef08c9c3d2"),
+                            IsDeleted = false,
+                            MovieId = new Guid("777634e2-3bb6-4748-8e91-7a10b70c78ac"),
+                            Showtime = "20:30"
+                        },
+                        new
+                        {
+                            Id = new Guid("0241c54a-37e7-4c9a-bcfb-43f0a60749e2"),
+                            AvailableTickets = 60,
+                            CinemaId = new Guid("5ae6c761-1363-4a23-9965-171c70f935de"),
+                            IsDeleted = false,
+                            MovieId = new Guid("54082f99-023b-4d68-89ac-44c00a0958d0"),
+                            Showtime = "17:00"
+                        },
+                        new
+                        {
+                            Id = new Guid("0e5c76b7-9e27-4217-a113-5cafd558d00f"),
+                            AvailableTickets = 70,
+                            CinemaId = new Guid("f4c3e429-0e36-47af-99a2-0c7581a7fc67"),
+                            IsDeleted = false,
+                            MovieId = new Guid("ab2c3213-48a7-41ea-9393-45c60ef813e6"),
+                            Showtime = "18:15"
+                        },
+                        new
+                        {
+                            Id = new Guid("ef18d96e-2e5b-4218-b552-e094e98ac178"),
+                            AvailableTickets = 50,
+                            CinemaId = new Guid("8a1fdfb4-08c9-44a2-a46e-0b3c45ff57b9"),
+                            IsDeleted = false,
+                            MovieId = new Guid("4491b6f5-2a11-4c4c-8c6b-c371f47d2152"),
+                            Showtime = "22:00"
+                        },
+                        new
+                        {
+                            Id = new Guid("9d54f01b-b33d-4ed5-8c4c-6874d62b24dd"),
+                            AvailableTickets = 110,
+                            CinemaId = new Guid("be80d2e4-1c91-4e86-9b73-12ef08c9c3d2"),
+                            IsDeleted = false,
+                            MovieId = new Guid("e00208b1-cb12-4bd4-8ac1-36ab62f7b4c9"),
+                            Showtime = "20:00"
                         });
                 });
 

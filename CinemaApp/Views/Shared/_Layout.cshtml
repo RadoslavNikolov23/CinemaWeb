@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="~/CinemaApp.Web.styles.css" asp-append-version="true" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
+	@*TODO: Remove this and introduce it as section Styles in the page*@
 	@if (ViewData["Title"] != null && ViewData["Title"].ToString() == "Explore Cinemas")
 	{
 		<link rel="stylesheet" href="~/css/cinema.css" asp-append-version="true" />
@@ -36,26 +37,33 @@
 				<div class="navbar-collapse collapse d-lg-inline-flex justify-content-between">
 					<ul class="navbar-nav flex-grow-1">
 						<li class="nav-item">
+							<a class="nav-link text-light" asp-area="" asp-controller="Cinema" asp-action="Index">
+								<i class="bi bi-film"></i> Cinemas
+							</a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link text-light" asp-area="" asp-controller="Movie" asp-action="Index">
 								<i class="bi bi-camera-reels"></i> Movies
 							</a>
 						</li>
 						@if (User?.Identity?.IsAuthenticated ?? false)
 						{
-
+							<li class="nav-item">
+								<a class="nav-link text-light" asp-area="" asp-controller="Ticket" asp-action="Index">
+									<i class="bi bi-ticket-perforated"></i> Tickets
+								</a>
+							</li>
 							<li class="nav-item">
 								<a class="nav-link text-light" asp-area="" asp-controller="Watchlist" asp-action="Index">
 									<i class="bi bi-bookmark-star"></i> Watchlist
 								</a>
 							</li>
-
 							<li class="nav-item">
 								<a class="nav-link text-light" asp-area="" asp-controller="Movie" asp-action="Add">
 									<i class="bi bi-ticket-perforated"></i> Add Movie
 								</a>
 							</li>
 						}
-
 					</ul>
 					<partial name="_LoginPartial" />
 				</div>
@@ -76,6 +84,7 @@
 	<script src="~/lib/jquery/dist/jquery.min.js"></script>
 	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="~/js/site.js" asp-append-version="true"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

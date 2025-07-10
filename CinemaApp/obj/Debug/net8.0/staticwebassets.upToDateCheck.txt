@@ -1,9 +1,12 @@
 wwwroot\css\cinema-styles.css
+wwwroot\css\errors.css
 wwwroot\css\site.css
 wwwroot\css\user.css
 wwwroot\favicon.ico
 wwwroot\images\cinema-panoramic-megeve.jpg
 wwwroot\images\no-image.jpg
+wwwroot\js\cinemas.js
+wwwroot\js\movies.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
