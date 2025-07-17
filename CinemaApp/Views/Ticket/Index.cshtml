@@ -1,8 +1,12 @@
-﻿@* @using CinemaApp.Web.ViewModels.Tickets
-@model IEnumerable<UserTicketViewModel>
+﻿@using CinemaApp.Web.ViewModels.Ticket
+@model IEnumerable<TicketIndexViewModel>
 
 @{
     ViewData["Title"] = "My Tickets";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/user.css">
 }
 
 <div class="container mt-4">
@@ -19,7 +23,7 @@
             <div class="card shadow-lg border-0 rounded-3 d-flex flex-row align-items-center p-2"
                  style="height: 140px; max-height: 140px; background: rgba(34, 34, 34, 0.95);">
 
-                <img src="@ticket.ImageUrl" class="rounded"
+                <img src="@ticket.MovieImageUrl" class="rounded"
                      alt="@ticket.MovieTitle"
                      style="width: 100px; height: 130px; object-fit: cover;">
 
@@ -29,7 +33,14 @@
                         <strong>Cinema:</strong> @ticket.CinemaName
                     </p>
                     <p class="text-muted mb-1" style="font-size: 0.85rem;">
-                        <strong>Price:</strong> <span class="text-success">$@ticket.Price.ToString("F2")</span>
+                        <strong>Ticket Price:</strong> <span class="text-success">$@ticket.TicketPrice</span>
+                    </p>
+                    <p class="text-muted mb-1" style="font-size: 0.85rem;">
+                        <strong>Total Price:</strong> <span class="text-warning">$@ticket.TicketPrice</span>
+                    </p>
+                    <p class="text-muted mb-0" style="font-size: 0.85rem;">
+                        <strong>Showtime:</strong>
+                        <span class="showtime-box">@ticket.Showtime</span>
                     </p>
                 </div>
 
@@ -43,7 +54,6 @@
     </div>
 </div>
 
-@section Scripts {
+@* @section Scripts {
     <script src="~/js/tickets.js"></script>
-}
-<link rel="stylesheet" href="~/css/user.css"> *@
+} *@
