@@ -2,9 +2,9 @@
 namespace CinemaApp.WebApi
 {
     using CinemaApp.Data;
+    using CinemaApp.Data.Models;
     using CinemaApp.Data.Repository.Interface;
     using CinemaApp.Services.Core.Interfaces;
-    using Microsoft.AspNetCore.Identity;
     using Microsoft.EntityFrameworkCore;
 
     using Web.Infrastructure.Extensions;

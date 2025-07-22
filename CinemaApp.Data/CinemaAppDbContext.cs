@@ -5,17 +5,18 @@
     using Microsoft.EntityFrameworkCore;
     using System.Reflection;
 
-    public class CinemaAppDbContext : IdentityDbContext
+    public class CinemaAppDbContext : IdentityDbContext<ApplicationUser>
     {
         public CinemaAppDbContext(DbContextOptions<CinemaAppDbContext> options)
             : base(options)
         {
         }
 
-
-        public virtual DbSet<Movie> Movies { get; set; } = null!;
+        public virtual DbSet<ApplicationUser> ApplicationUsers { get; set; } = null!;
 
         public virtual DbSet<ApplicationUserMovie> ApplicationUserMovies { get; set; } = null!;
+
+        public virtual DbSet<Movie> Movies { get; set; } = null!;
 
         public virtual DbSet<Cinema> Cinemas { get; set; } = null!;
 

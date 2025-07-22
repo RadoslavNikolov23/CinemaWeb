@@ -1,8 +1,8 @@
 ﻿namespace CinemaApp.WebApi.Controllers
 {
     using CinemaApp.Services.Core.Interfaces;
-    using Microsoft.AspNetCore.Mvc;
     using System.ComponentModel.DataAnnotations;
+    using Microsoft.AspNetCore.Mvc;
 
      public class CinemaMovieApiController : BaseExternalApiController
     {

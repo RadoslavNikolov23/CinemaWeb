@@ -9,7 +9,7 @@
         [Comment("Foreign key to the referenced AspNetUser. Part of the entity composite PK.")]
         public string ApplicationUserId { get; set; } = null!;
 
-        public virtual IdentityUser ApplicationUser { get; set; } = null!;
+        public virtual ApplicationUser ApplicationUser { get; set; } = null!;
 
         [Comment("Foreign key to the referenced Movie. Part of the entity composite PK.")]
         public Guid MovieId { get; set; }

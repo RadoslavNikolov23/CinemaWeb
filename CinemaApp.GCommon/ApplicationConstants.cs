@@ -16,5 +16,11 @@
 
         public const string AllowAllDomainsPolicy = "AllowAllDomainsDebug";
 
+        public const string UserRoleName = "User";
+
+        public const string AdminRoleName = "Admin";
+
+        public const string AdminAreaName = "Admin";
+
     }
 }

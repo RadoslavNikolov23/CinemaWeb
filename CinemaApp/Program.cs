@@ -1,7 +1,10 @@
 namespace CinemaApp.Web
 {
     using CinemaApp.Data;
+    using CinemaApp.Data.Models;
     using CinemaApp.Data.Repository.Interface;
+    using CinemaApp.Data.Seeding;
+    using CinemaApp.Data.Seeding.Interfaces;
     using CinemaApp.Services.Core.Interfaces;
     using CinemaApp.Web.Infrastructure.Extensions;
     using Microsoft.AspNetCore.Identity;
@@ -28,25 +31,18 @@ namespace CinemaApp.Web
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
             builder.Services
-                    .AddDefaultIdentity<IdentityUser>(options =>
+                    .AddDefaultIdentity<ApplicationUser>(options =>
                     {
-                        // Default settings for Identity options
-                        options.SignIn.RequireConfirmedEmail = false;
-                        options.SignIn.RequireConfirmedAccount = false;
-                        options.SignIn.RequireConfirmedPhoneNumber = false;
-
-                        options.Password.RequireDigit = false;
-                        options.Password.RequiredLength = 3;
-                        options.Password.RequireNonAlphanumeric = false;
-                        options.Password.RequireUppercase = false;
-                        options.Password.RequireLowercase = false;
-                        options.Password.RequiredUniqueChars = 0;
+                        ConfigureIdentity(builder.Configuration, options);
                     })
                     .AddEntityFrameworkStores<CinemaAppDbContext>();
 
 
             builder.Services.AddRepositories(typeof(IMovieRepository).Assembly);
             builder.Services.AddUserDefinedServices(typeof(IMovieService).Assembly);
+
+            // TODO: Implement as extension method
+            builder.Services.AddTransient<IIdentitySeeder, IdentitySeeder>();
 
             builder.Services.AddControllersWithViews();
 
@@ -71,10 +67,18 @@ namespace CinemaApp.Web
 
             app.UseRouting();
 
+            app.SeedDefaultIdentity();
+
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseManagerAccessRestriction();
 
+            app.UserAdminRedirection();
+
+
+            app.MapControllerRoute(
+                name: "areas",
+                pattern: "{area}/{controller=Home}/{action=Index}/{id?}");
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
@@ -82,6 +86,29 @@ namespace CinemaApp.Web
             app.MapRazorPages();
 
             app.Run();
+        }
+
+        private static void ConfigureIdentity(IConfigurationManager configurationManager, IdentityOptions identityOptions)
+        {
+            identityOptions.SignIn.RequireConfirmedEmail =
+                configurationManager.GetValue<bool>($"IdentityConfig:SignIn:RequireConfirmedEmail");
+            identityOptions.SignIn.RequireConfirmedAccount =
+                configurationManager.GetValue<bool>($"IdentityConfig:SignIn:RequireConfirmedAccount");
+            identityOptions.SignIn.RequireConfirmedPhoneNumber =
+                configurationManager.GetValue<bool>($"IdentityConfig:SignIn:RequireConfirmedPhoneNumber");
+
+            identityOptions.Password.RequiredLength =
+                configurationManager.GetValue<int>($"IdentityConfig:Password:RequiredLength");
+            identityOptions.Password.RequireNonAlphanumeric =
+                configurationManager.GetValue<bool>($"IdentityConfig:Password:RequireNonAlphanumeric");
+            identityOptions.Password.RequireDigit =
+                configurationManager.GetValue<bool>($"IdentityConfig:Password:RequireDigit");
+            identityOptions.Password.RequireLowercase =
+                configurationManager.GetValue<bool>($"IdentityConfig:Password:RequireLowercase");
+            identityOptions.Password.RequireUppercase =
+                configurationManager.GetValue<bool>($"IdentityConfig:Password:RequireUppercase");
+            identityOptions.Password.RequiredUniqueChars =
+                configurationManager.GetValue<int>($"IdentityConfig:Password:RequiredUniqueChars");
         }
     }
 }

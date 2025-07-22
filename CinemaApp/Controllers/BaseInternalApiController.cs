@@ -1,7 +1,6 @@
 ﻿namespace CinemaApp.Web.Controllers
 {
     using System.Security.Claims;
-
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
 
@@ -13,6 +12,7 @@
         protected bool IsUserAuthenticated()
         {
             bool retRes = false;
+
             if (this.User.Identity != null)
             {
                 retRes = this.User.Identity.IsAuthenticated;
