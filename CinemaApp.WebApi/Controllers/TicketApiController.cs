@@ -6,9 +6,7 @@
 
     using System.Security.Claims;
 
-    [Route("[controller]")]
-    [ApiController]
-    public class TicketApiController : ControllerBase
+     public class TicketApiController : BaseExternalApiController
     {
         private readonly ITicketService ticketService;
 
@@ -20,9 +18,11 @@
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [Route("Buy")]
-        public async Task<ActionResult> BuyTicket([Required] string cinemaId,
-            [Required] string movieId, int quantity, [Required] string showtime)
+        [Authorize]
+        public async Task<ActionResult> BuyTicket([Required]string cinemaId, 
+            [Required]string movieId, int quantity, [Required]string showtime)
         {
             string? userId = this.GetUserId();
             bool result = await this.ticketService
@@ -33,30 +33,6 @@
             }
 
             return this.Ok();
-        }
-
-        // TODO: Refactor into BaseApiController
-        private bool IsUserAuthenticated()
-        {
-            bool retRes = false;
-            if (this.User.Identity != null)
-            {
-                retRes = this.User.Identity.IsAuthenticated;
-            }
-
-            return retRes;
-        }
-
-        private string? GetUserId()
-        {
-            string? userId = null;
-            if (this.IsUserAuthenticated())
-            {
-                userId = this.User
-                    .FindFirstValue(ClaimTypes.NameIdentifier);
-            }
-
-            return userId;
         }
     }
 }
