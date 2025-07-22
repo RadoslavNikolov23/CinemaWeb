@@ -15,23 +15,19 @@ namespace CinemaApp.WebApi
         public static void Main(string[] args)
         {
             WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
-
-            string connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
-                                    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+            string connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
+                                      throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
             builder.Services.AddDbContext<CinemaAppDbContext>(options =>
             {
                 options.UseSqlServer(connectionString);
             });
-
             builder.Services.AddAuthorization();
-             
-            builder.Services.AddIdentityApiEndpoints<IdentityUser>()
-           .AddEntityFrameworkStores<CinemaAppDbContext>();
+            builder.Services.AddIdentityApiEndpoints<ApplicationUser>()
+                .AddEntityFrameworkStores<CinemaAppDbContext>();
 
             builder.Services.AddRepositories(typeof(IMovieRepository).Assembly);
             builder.Services.AddUserDefinedServices(typeof(IMovieService).Assembly);
-            // Add services to the container.
 
             builder.Services.AddCors(options =>
             {
@@ -46,8 +42,8 @@ namespace CinemaApp.WebApi
             });
 
             builder.Services.AddControllers();
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-           
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
@@ -64,9 +60,10 @@ namespace CinemaApp.WebApi
 
             app.UseCors(AllowAllDomainsPolicy);
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
-            app.MapIdentityApi<IdentityUser>();
+            app.MapIdentityApi<ApplicationUser>();
             app.MapControllers();
 
             app.Run();
