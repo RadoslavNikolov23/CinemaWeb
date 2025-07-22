@@ -13,10 +13,10 @@
             entity
                 .HasKey(cm => cm.Id);
 
-            // Define composite pseudo-PK
-            entity
-                .HasIndex(cm => new { cm.MovieId, cm.CinemaId, cm.Showtime })
-                .IsUnique(true);
+            //// Define composite pseudo-PK
+            //entity
+            //    .HasIndex(cm => new { cm.MovieId, cm.CinemaId, cm.Showtime })
+            //    .IsUnique(true);
 
             entity
                 .Property(cm => cm.IsDeleted)

@@ -22,8 +22,8 @@
         public virtual CinemaMovie CinemaMovieProjection { get; set; } = null!;
 
         [Comment("Foreign key to the owner of the ticket")]
-        public string UserId { get; set; } = null!;
+        public Guid UserId { get; set; }
 
-        public virtual IdentityUser User { get; set; } = null!;
+        public virtual ApplicationUser User { get; set; } = null!;
     }
 }

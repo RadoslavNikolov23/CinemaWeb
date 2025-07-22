@@ -5,9 +5,11 @@ wwwroot\css\user.css
 wwwroot\favicon.ico
 wwwroot\images\cinema-panoramic-megeve.jpg
 wwwroot\images\no-image.jpg
+wwwroot\js\buyTickets.js
 wwwroot\js\cinemas.js
 wwwroot\js\movies.js
 wwwroot\js\site.js
+wwwroot\js\userManagement.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

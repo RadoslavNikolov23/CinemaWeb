@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Applications - Projects\\CinemaWeb\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp\\views\\cinema\\program.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\views\\cinema\\program.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp\\views\\cinema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\views\\cinema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp\\views\\cinema\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\views\\cinema\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp\\views\\shared\\_cinemasearchandfilterpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\views\\shared\\_cinemasearchandfilterpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,63 +9,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Views\\Cinema\\Details.cshtml",
-              "RelativeDocumentMoniker": "CinemaApp\\Views\\Cinema\\Details.cshtml",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Views\\Cinema\\Details.cshtml",
-              "RelativeToolTip": "CinemaApp\\Views\\Cinema\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T12:49:03.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cshtml",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Views\\Cinema\\Program.cshtml",
-              "RelativeDocumentMoniker": "CinemaApp\\Views\\Cinema\\Program.cshtml",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Views\\Cinema\\Program.cshtml",
-              "RelativeToolTip": "CinemaApp\\Views\\Cinema\\Program.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T12:48:52.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_CinemaSearchAndFilterPartial.cshtml",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Views\\Shared\\_CinemaSearchAndFilterPartial.cshtml",
-              "RelativeDocumentMoniker": "CinemaApp\\Views\\Shared\\_CinemaSearchAndFilterPartial.cshtml",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Views\\Shared\\_CinemaSearchAndFilterPartial.cshtml",
-              "RelativeToolTip": "CinemaApp\\Views\\Shared\\_CinemaSearchAndFilterPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T12:45:36.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Views\\Cinema\\Index.cshtml",
-              "RelativeDocumentMoniker": "CinemaApp\\Views\\Cinema\\Index.cshtml",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Views\\Cinema\\Index.cshtml",
-              "RelativeToolTip": "CinemaApp\\Views\\Cinema\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T12:40:55.287Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

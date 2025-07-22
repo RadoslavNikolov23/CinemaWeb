@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CinemaApp\\CinemaApp.Web.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "CinemaApp.WebApi\\CinemaApp.WebApi.csproj",
+        "Action": "StartWithoutDebugging"
+      }
+    ]
+  }
+]
