@@ -4,9 +4,7 @@
     using Microsoft.AspNetCore.Mvc;
     using System.ComponentModel.DataAnnotations;
 
-    [ApiController]
-    [Route("[controller]")]
-    public class CinemaMovieApiController : ControllerBase
+     public class CinemaMovieApiController : BaseExternalApiController
     {
         private readonly IProjectionService projectionService;
 
@@ -19,7 +17,7 @@
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [Route("Showtimes")]
-        public async Task<ActionResult<IEnumerable<string>>> GetProjectionShowtimes([Required] string cinemaId, [Required] string movieId)
+        public async Task<ActionResult<IEnumerable<string>>> GetProjectionShowtimes([Required]string cinemaId, [Required]string movieId)
         {
             IEnumerable<string> showtimes = await this.projectionService
                 .GetProjectionShowtimesAsync(cinemaId, movieId);
@@ -31,7 +29,7 @@
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [Route("AvailableTickets")]
-        public async Task<ActionResult<int>> GetAvailableTickets([Required] string cinemaId,
+        public async Task<ActionResult<int>> GetAvailableTickets([Required]string cinemaId,
             [Required] string movieId, [Required] string showtime)
         {
             int availableTickets = await this.projectionService
