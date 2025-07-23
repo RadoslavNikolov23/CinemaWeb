@@ -35,6 +35,7 @@ namespace CinemaApp.Web
                     {
                         ConfigureIdentity(builder.Configuration, options);
                     })
+                    .AddRoles<IdentityRole>()
                     .AddEntityFrameworkStores<CinemaAppDbContext>();
 
 
@@ -42,7 +43,7 @@ namespace CinemaApp.Web
             builder.Services.AddUserDefinedServices(typeof(IMovieService).Assembly);
 
             // TODO: Implement as extension method
-            builder.Services.AddTransient<IIdentitySeeder, IdentitySeeder>();
+            builder.Services.AddScoped<IIdentitySeeder, IdentitySeeder>();
 
             builder.Services.AddControllersWithViews();
 

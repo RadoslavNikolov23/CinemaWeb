@@ -16,7 +16,7 @@
         {
             return this
                 .GetAllAttached()
-                .SingleOrDefault(aum => aum.ApplicationUserId.ToLower() == userId.ToLower() &&
+                .SingleOrDefault(aum => aum.ApplicationUserId.ToString().ToLower() == userId.ToLower() &&
                         aum.MovieId.ToString().ToLower() == movieId.ToLower());
         }
 
@@ -24,7 +24,7 @@
         {
             return this
                 .GetAllAttached()
-                .SingleOrDefaultAsync(aum => aum.ApplicationUserId.ToLower() == userId.ToLower() &&
+                .SingleOrDefaultAsync(aum => aum.ApplicationUserId.ToString().ToLower() == userId.ToLower() &&
                         aum.MovieId.ToString().ToLower() == movieId.ToLower());
         }
 
@@ -32,7 +32,7 @@
         {
             return this
                 .GetAllAttached()
-                .Any(aum => aum.ApplicationUserId.ToLower() == userId.ToLower() &&
+                .Any(aum => aum.ApplicationUserId.ToString().ToLower() == userId.ToLower() &&
                             aum.MovieId.ToString().ToLower() == movieId.ToLower());
         }
 
@@ -40,7 +40,7 @@
         {
             return this
                 .GetAllAttached()
-                .AnyAsync(aum => aum.ApplicationUserId.ToLower() == userId.ToLower() &&
+                .AnyAsync(aum => aum.ApplicationUserId.ToString().ToLower() == userId.ToLower() &&
                             aum.MovieId.ToString().ToLower() == movieId.ToLower());
         }
     }

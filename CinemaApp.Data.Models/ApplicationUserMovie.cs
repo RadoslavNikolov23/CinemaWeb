@@ -7,7 +7,7 @@
     public class ApplicationUserMovie
     {
         [Comment("Foreign key to the referenced AspNetUser. Part of the entity composite PK.")]
-        public Guid ApplicationUserId { get; set; }
+        public string ApplicationUserId { get; set; } = null!;
 
         public virtual ApplicationUser ApplicationUser { get; set; } = null!;
 

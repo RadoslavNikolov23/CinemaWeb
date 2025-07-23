@@ -39,6 +39,7 @@
             {
                 bool roleExists = await this.roleManager
                     .RoleExistsAsync(defaultRole);
+
                 if (!roleExists)
                 {
                     IdentityRole newRole = new IdentityRole(defaultRole);

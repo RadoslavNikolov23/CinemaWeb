@@ -22,9 +22,9 @@
                 .HasForeignKey<Manager>(m => m.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            entity
-                .HasIndex(m => new { m.UserId })
-                .IsUnique();
+            //entity
+            //    .HasIndex(m => new { m.UserId })
+            //    .IsUnique();
 
             entity
                 .HasQueryFilter(m => m.IsDeleted == false);

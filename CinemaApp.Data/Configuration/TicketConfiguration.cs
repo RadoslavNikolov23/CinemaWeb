@@ -31,9 +31,9 @@
                 .WithMany(u=>u.Tickets)
                 .HasForeignKey(t => t.UserId);
 
-            entity
-                .HasIndex(t => new { t.CinemaMovieId, t.UserId })
-                .IsUnique(true);
+            //entity
+            //    .HasIndex(t => new { t.CinemaMovieId, t.UserId })
+            //    .IsUnique(true);
 
             entity
                 .HasQueryFilter(t => t.CinemaMovieProjection.IsDeleted == false);

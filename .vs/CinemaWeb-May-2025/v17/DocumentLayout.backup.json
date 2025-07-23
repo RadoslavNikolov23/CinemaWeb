@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Applications - Projects\\CinemaWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{737FCBAF-0C43-442A-8766-DED1901E84B0}|CinemaApp.Data\\CinemaApp.Data.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.data\\configuration\\applicationusermovieconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FCBAF-0C43-442A-8766-DED1901E84B0}|CinemaApp.Data\\CinemaApp.Data.csproj|solutionrelative:cinemaapp.data\\configuration\\applicationusermovieconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp\\areas\\admin\\controllers\\baseadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\areas\\admin\\controllers\\baseadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D1A47D-9414-4ED3-8F00-0AE89D29A8F8}|CinemaApp.Data.Models\\CinemaApp.Data.Models.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.data.models\\applicationusermovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D1A47D-9414-4ED3-8F00-0AE89D29A8F8}|CinemaApp.Data.Models\\CinemaApp.Data.Models.csproj|solutionrelative:cinemaapp.data.models\\applicationusermovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{737FCBAF-0C43-442A-8766-DED1901E84B0}|CinemaApp.Data\\CinemaApp.Data.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.data\\configuration\\managerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FCBAF-0C43-442A-8766-DED1901E84B0}|CinemaApp.Data\\CinemaApp.Data.csproj|solutionrelative:cinemaapp.data\\configuration\\managerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D1A47D-9414-4ED3-8F00-0AE89D29A8F8}|CinemaApp.Data.Models\\CinemaApp.Data.Models.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.data.models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D1A47D-9414-4ED3-8F00-0AE89D29A8F8}|CinemaApp.Data.Models\\CinemaApp.Data.Models.csproj|solutionrelative:cinemaapp.data.models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D1A47D-9414-4ED3-8F00-0AE89D29A8F8}|CinemaApp.Data.Models\\CinemaApp.Data.Models.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.data.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D1A47D-9414-4ED3-8F00-0AE89D29A8F8}|CinemaApp.Data.Models\\CinemaApp.Data.Models.csproj|solutionrelative:cinemaapp.data.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,72 +49,68 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationUserMovie.cs",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data.Models\\ApplicationUserMovie.cs",
-              "RelativeDocumentMoniker": "CinemaApp.Data.Models\\ApplicationUserMovie.cs",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data.Models\\ApplicationUserMovie.cs",
-              "RelativeToolTip": "CinemaApp.Data.Models\\ApplicationUserMovie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BaseAdminController.cs",
+              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Areas\\Admin\\Controllers\\BaseAdminController.cs",
+              "RelativeDocumentMoniker": "CinemaApp\\Areas\\Admin\\Controllers\\BaseAdminController.cs",
+              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Areas\\Admin\\Controllers\\BaseAdminController.cs",
+              "RelativeToolTip": "CinemaApp\\Areas\\Admin\\Controllers\\BaseAdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T21:22:16.171Z",
+              "WhenOpened": "2025-07-23T22:25:27.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationUserMovieConfiguration.cs",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data\\Configuration\\ApplicationUserMovieConfiguration.cs",
-              "RelativeDocumentMoniker": "CinemaApp.Data\\Configuration\\ApplicationUserMovieConfiguration.cs",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data\\Configuration\\ApplicationUserMovieConfiguration.cs",
-              "RelativeToolTip": "CinemaApp.Data\\Configuration\\ApplicationUserMovieConfiguration.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CinemaApp\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CinemaApp\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T21:22:12.21Z",
+              "WhenOpened": "2025-07-23T22:25:24.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ManagerConfiguration.cs",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data\\Configuration\\ManagerConfiguration.cs",
-              "RelativeDocumentMoniker": "CinemaApp.Data\\Configuration\\ManagerConfiguration.cs",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data\\Configuration\\ManagerConfiguration.cs",
-              "RelativeToolTip": "CinemaApp.Data\\Configuration\\ManagerConfiguration.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T21:20:53.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data.Models\\Manager.cs",
-              "RelativeDocumentMoniker": "CinemaApp.Data.Models\\Manager.cs",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data.Models\\Manager.cs",
-              "RelativeToolTip": "CinemaApp.Data.Models\\Manager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T21:19:46.656Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaApp\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CinemaApp\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T22:25:22.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data.Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "CinemaApp.Data.Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Data.Models\\ApplicationUser.cs",
-              "RelativeToolTip": "CinemaApp.Data.Models\\ApplicationUser.cs",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CinemaApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CinemaApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T21:18:24.898Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T22:24:37.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CinemaApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CinemaApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T22:24:33.001Z",
               "EditorCaption": ""
             }
           ]

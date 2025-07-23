@@ -1,11 +1,10 @@
 ﻿namespace CinemaApp.Web.Infrastructure.Middlewares
 {
-    using Microsoft.AspNetCore.Http;
-    using Services.Core.Interfaces;
-    using System.Net.Http;
     using System.Security.Claims;
     using System.Security.Cryptography;
     using System.Text;
+    using Microsoft.AspNetCore.Http;
+    using Services.Core.Interfaces;
     using static GCommon.ApplicationConstants;
 
     public class ManagerAccessRestrictionMiddleware
@@ -28,7 +27,6 @@
                     .Request
                     .Cookies
                     .ContainsKey(ManagerAuthCookie);
-               
                 if (managerCookieExists)
                 {
                     context.Response.Cookies.Delete(ManagerAuthCookie);
@@ -36,7 +34,6 @@
             }
 
             string requestPath = context.Request.Path.ToString().ToLower();
-
             if (requestPath.StartsWith("/manager"))
             {
                 if (!(context.User.Identity?.IsAuthenticated ?? false))
@@ -50,17 +47,14 @@
                     .Request
                     .Cookies
                     .TryGetValue(ManagerAuthCookie, out string cookieValue);
-
                 if (!cookieValueObtained)
                 {
                     // Cookie does not exist
                     // 1. The user may not be a manager
                     // 2. Old cookie may have expired
                     string? userId = context.User.FindFirstValue(ClaimTypes.NameIdentifier);
-
                     bool isAuthUserManager = await managerService
                         .ExistsByUserIdAsync(userId);
-
                     if (!isAuthUserManager)
                     {
                         // User is not a manager
@@ -75,7 +69,6 @@
                 {
                     // Cookie exists and is obtained
                     string? userId = context.User.FindFirstValue(ClaimTypes.NameIdentifier);
-                   
                     if (userId == null)
                     {
                         // Non authenticated user with stolen cookie
@@ -85,7 +78,6 @@
 
                     // Check whether the cookie belongs to the current user
                     string hashedUserId = await this.Sha512OverString(userId);
-                    
                     if (hashedUserId.ToLower() != cookieValue.ToLower())
                     {
                         // This cookie does not belong to the current user
@@ -112,7 +104,6 @@
             };
 
             CookieOptions cookieOptions = cookieBuilder.Build(context);
-
             string hashedUserId = await
                 this.Sha512OverString(userId);
 
@@ -125,7 +116,6 @@
 
             byte[] sha512HashBytes = await sha512Manager
                 .ComputeHashAsync(new MemoryStream(Encoding.UTF8.GetBytes(userId)));
-
             string hashedString = BitConverter.ToString(sha512HashBytes)
                 .Replace("-", "")
                 .Trim()

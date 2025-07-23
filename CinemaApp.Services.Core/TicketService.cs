@@ -31,7 +31,7 @@
             {
                 userTickets = await this.ticketRepository
                     .GetAllAttached()
-                    .Where(t => t.UserId.ToLower() == userId.ToLower())
+                    .Where(t => t.UserId.ToString().ToLower() == userId.ToLower())
                     .Select(t => new TicketIndexViewModel()
                     {
                         MovieTitle = t.CinemaMovieProjection.Movie.Title,
@@ -67,7 +67,7 @@
                     Ticket? projectionTicket = this.ticketRepository
                         .SingleOrDefault(t =>
                             t.CinemaMovieId.ToString().ToLower() == projection.Id.ToString().ToLower() &&
-                            t.UserId.ToLower() == userId.ToLower());
+                            t.UserId.ToString().ToLower() == userId.ToLower());
                     if (projectionTicket != null)
                     {
                         projectionTicket.Quantity += quantity;

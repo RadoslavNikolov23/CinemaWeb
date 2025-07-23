@@ -22,7 +22,7 @@
             if (!String.IsNullOrWhiteSpace(userId))
             {
                 Manager? manager = await this.managerRepository
-                    .FirstOrDefaultAsync(m => m.UserId.ToLower() == userId.ToLower());
+                    .FirstOrDefaultAsync(m => m.UserId.ToString().ToLower() == userId.ToLower());
 
                 if (manager != null)
                 {
@@ -55,7 +55,7 @@
             {
                 result = await this.managerRepository
                     .GetAllAttached()
-                    .AnyAsync(m => m.UserId.ToLower() == userId.ToLower());
+                    .AnyAsync(m => m.UserId.ToString().ToLower() == userId.ToLower());
             }
 
             return result;
