@@ -5,6 +5,7 @@ namespace CinemaApp.WebApi
     using CinemaApp.Data.Models;
     using CinemaApp.Data.Repository.Interface;
     using CinemaApp.Services.Core.Interfaces;
+    using Microsoft.AspNetCore.Identity;
     using Microsoft.EntityFrameworkCore;
 
     using Web.Infrastructure.Extensions;
@@ -24,6 +25,7 @@ namespace CinemaApp.WebApi
             });
             builder.Services.AddAuthorization();
             builder.Services.AddIdentityApiEndpoints<ApplicationUser>()
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<CinemaAppDbContext>();
 
             builder.Services.AddRepositories(typeof(IMovieRepository).Assembly);

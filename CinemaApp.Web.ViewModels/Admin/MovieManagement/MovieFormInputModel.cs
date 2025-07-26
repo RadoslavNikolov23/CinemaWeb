@@ -1,6 +1,7 @@
-﻿namespace CinemaApp.Web.ViewModels.Movie
+﻿namespace CinemaApp.Web.ViewModels.Admin.MovieManagement
 {
     using System.ComponentModel.DataAnnotations;
+
     using static CinemaApp.Data.Common.EntityConstants.Movie;
     using static CinemaApp.Web.ViewModels.ValidationMessages.Movie;
     using static GCommon.ApplicationConstants;

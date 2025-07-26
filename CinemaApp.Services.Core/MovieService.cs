@@ -1,17 +1,15 @@
 ﻿namespace CinemaApp.Services.Core
 {
-    using CinemaApp.Data;
-    using CinemaApp.Data.Models;
-    using CinemaApp.Data.Repository.Interface;
-    using CinemaApp.Services.Core.Interfaces;
-    using CinemaApp.Web.ViewModels.Movie;
-    using Microsoft.EntityFrameworkCore;
-    using System;
-    using System.Collections.Generic;
     using System.Globalization;
-    using System.Threading.Tasks;
-    using static CinemaApp.GCommon.ApplicationConstants;
 
+    using Microsoft.EntityFrameworkCore;
+
+    using Data.Models;
+    using Data.Repository.Interface;
+    using Interfaces;
+    using Web.ViewModels.Movie;
+    using static GCommon.ApplicationConstants;
+    using CinemaApp.Web.ViewModels.Admin.MovieManagement;
     public class MovieService : IMovieService
     {
         private readonly IMovieRepository movieRepository;
@@ -26,17 +24,16 @@
             IEnumerable<AllMoviesIndexViewModel> allMovies = await this.movieRepository
                 .GetAllAttached()
                 .AsNoTracking()
-                .Select(m => new AllMoviesIndexViewModel
+                .Select(m => new AllMoviesIndexViewModel()
                 {
                     Id = m.Id.ToString(),
                     Title = m.Title,
                     Genre = m.Genre,
-                    Director = m.Director,
                     ReleaseDate = m.ReleaseDate.ToString(AppDateFormat),
-                    ImageUrl = m.ImageUrl
+                    Director = m.Director,
+                    ImageUrl = m.ImageUrl,
                 })
                 .ToListAsync();
-
             foreach (AllMoviesIndexViewModel movie in allMovies)
             {
                 if (String.IsNullOrEmpty(movie.ImageUrl))
@@ -48,19 +45,18 @@
             return allMovies;
         }
 
-
-        public async Task AddMovieAsync(MovieFormInputModel movieInput)
+        public async Task AddMovieAsync(MovieFormInputModel inputModel)
         {
             Movie newMovie = new Movie()
             {
-                Title = movieInput.Title,
-                Genre = movieInput.Genre,
-                Director = movieInput.Director,
-                Description = movieInput.Description,
-                Duration = movieInput.Duration,
-                ImageUrl = movieInput.ImageUrl,
+                Title = inputModel.Title,
+                Genre = inputModel.Genre,
+                Director = inputModel.Director,
+                Description = inputModel.Description,
+                Duration = inputModel.Duration,
+                ImageUrl = inputModel.ImageUrl,
                 ReleaseDate = DateOnly
-                    .ParseExact(movieInput.ReleaseDate, AppDateFormat,
+                    .ParseExact(inputModel.ReleaseDate, AppDateFormat,
                         CultureInfo.InvariantCulture, DateTimeStyles.None),
             };
 
@@ -72,7 +68,6 @@
             MovieDetailsViewModel? movieDetails = null;
 
             bool isIdValidGuid = Guid.TryParse(id, out Guid movieId);
-
             if (isIdValidGuid)
             {
                 movieDetails = await this.movieRepository
@@ -128,7 +123,6 @@
             bool result = false;
 
             Movie? editableMovie = await this.FindMovieByStringId(inputModel.Id);
-
             if (editableMovie == null)
             {
                 return false;
@@ -137,7 +131,6 @@
             DateOnly movieReleaseDate = DateOnly
                 .ParseExact(inputModel.ReleaseDate, AppDateFormat,
                     CultureInfo.InvariantCulture, DateTimeStyles.None);
-
             editableMovie.Title = inputModel.Title;
             editableMovie.Description = inputModel.Description;
             editableMovie.Director = inputModel.Director;
@@ -151,28 +144,9 @@
             return result;
         }
 
-        public async Task<DeleteMovieViewModel?> GetMovieDeleteDetailsByIdAsync(string? id)
-        {
-            DeleteMovieViewModel? deleteMovieViewModel = null;
-
-            Movie? movieToBeDeleted = await this.FindMovieByStringId(id);
-            if (movieToBeDeleted != null)
-            {
-                deleteMovieViewModel = new DeleteMovieViewModel()
-                {
-                    Id = movieToBeDeleted.Id.ToString(),
-                    Title = movieToBeDeleted.Title,
-                    ImageUrl = movieToBeDeleted.ImageUrl ?? $"/images/{NoImageUrl}",
-                };
-            }
-
-            return deleteMovieViewModel;
-        }
-
         public async Task<bool> SoftDeleteMovieAsync(string? id)
         {
             bool result = false;
-
             Movie? movieToDelete = await this.FindMovieByStringId(id);
             if (movieToDelete == null)
             {
@@ -180,8 +154,6 @@
             }
 
             // Soft Delete <=> Edit of IsDeleted property
-            movieToDelete.IsDeleted = true;
-
             result = await this.movieRepository.DeleteAsync(movieToDelete);
 
             return result;
@@ -213,7 +185,7 @@
                 if (isGuidValid)
                 {
                     movie = await this.movieRepository
-                                     .GetByIdAsync(movieGuid);
+                        .GetByIdAsync(movieGuid);
                 }
             }
 
