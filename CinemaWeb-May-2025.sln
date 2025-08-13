@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaApp.Web.Infrastructur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaApp.WebApi", "CinemaApp.WebApi\CinemaApp.WebApi.csproj", "{D109C0CE-30CC-4ED4-ADA4-BD160C3E2AE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaApp.Services.Tests", "CinemaApp.Services.Tests\CinemaApp.Services.Tests.csproj", "{B65CEF3C-D18A-611E-626F-21C6E6B1664D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{D109C0CE-30CC-4ED4-ADA4-BD160C3E2AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D109C0CE-30CC-4ED4-ADA4-BD160C3E2AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D109C0CE-30CC-4ED4-ADA4-BD160C3E2AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B65CEF3C-D18A-611E-626F-21C6E6B1664D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65CEF3C-D18A-611E-626F-21C6E6B1664D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65CEF3C-D18A-611E-626F-21C6E6B1664D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65CEF3C-D18A-611E-626F-21C6E6B1664D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +104,7 @@ Global
 		{E587C51E-0459-0E37-829E-1B369C06875D} = {C8347219-1C67-45B6-BD1E-00FD5DDFF94C}
 		{A71185AD-41A9-DB70-7CE8-841EA9764D40} = {E9F39ADB-1A77-4205-8E24-7396BC55CF78}
 		{D109C0CE-30CC-4ED4-ADA4-BD160C3E2AE3} = {E9F39ADB-1A77-4205-8E24-7396BC55CF78}
+		{B65CEF3C-D18A-611E-626F-21C6E6B1664D} = {744666C0-E69F-4DA8-8445-BAA0139E624F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E01D5365-332F-4A49-8820-58BFB761EB89}

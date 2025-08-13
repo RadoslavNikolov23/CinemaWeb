@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Applications - Projects\\CinemaWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B65CEF3C-D18A-611E-626F-21C6E6B1664D}|CinemaApp.Services.Tests\\CinemaApp.Services.Tests.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.services.tests\\cinemaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65CEF3C-D18A-611E-626F-21C6E6B1664D}|CinemaApp.Services.Tests\\CinemaApp.Services.Tests.csproj|solutionrelative:cinemaapp.services.tests\\cinemaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D109C0CE-30CC-4ED4-ADA4-BD160C3E2AE3}|CinemaApp.WebApi\\CinemaApp.WebApi.csproj|c:\\applications - projects\\cinemaweb\\cinemaapp.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D109C0CE-30CC-4ED4-ADA4-BD160C3E2AE3}|CinemaApp.WebApi\\CinemaApp.WebApi.csproj|solutionrelative:cinemaapp.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,11 +54,36 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CinemaServiceTests.cs",
+              "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Services.Tests\\CinemaServiceTests.cs",
+              "RelativeDocumentMoniker": "CinemaApp.Services.Tests\\CinemaServiceTests.cs",
+              "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Services.Tests\\CinemaServiceTests.cs",
+              "RelativeToolTip": "CinemaApp.Services.Tests\\CinemaServiceTests.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAowAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T20:16:32.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "CinemaApp.WebApi\\Program.cs",
@@ -67,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserManagementController.cs",
               "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Areas\\Admin\\Controllers\\UserManagementController.cs",
               "RelativeDocumentMoniker": "CinemaApp\\Areas\\Admin\\Controllers\\UserManagementController.cs",
@@ -80,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Areas\\Admin\\Views\\UserManagement\\Index.cshtml",
               "RelativeDocumentMoniker": "CinemaApp\\Areas\\Admin\\Views\\UserManagement\\Index.cshtml",
@@ -93,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_NotificationsPartial.cshtml",
               "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Views\\Shared\\_NotificationsPartial.cshtml",
               "RelativeDocumentMoniker": "CinemaApp\\Views\\Shared\\_NotificationsPartial.cshtml",
@@ -106,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CinemaApp\\Views\\Shared\\_Layout.cshtml",
@@ -119,13 +148,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CinemaManagementAddFormModel.cs",
               "DocumentMoniker": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Web.ViewModels\\Admin\\CinemaManagement\\CinemaManagementAddFormModel.cs",
               "RelativeDocumentMoniker": "CinemaApp.Web.ViewModels\\Admin\\CinemaManagement\\CinemaManagementAddFormModel.cs",
               "ToolTip": "C:\\Applications - Projects\\CinemaWeb\\CinemaApp.Web.ViewModels\\Admin\\CinemaManagement\\CinemaManagementAddFormModel.cs",
               "RelativeToolTip": "CinemaApp.Web.ViewModels\\Admin\\CinemaManagement\\CinemaManagementAddFormModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T13:42:12.24Z",
               "EditorCaption": ""
